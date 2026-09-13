@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<<<<<<< HEAD
     <title>Drag and Drop List | Ankita Pailwan</title>
+=======
+    <title>Currency Converter | Ankita Pailwan</title>
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<<<<<<< HEAD
 
 
     <!-- Main Section -->
@@ -45,10 +50,147 @@
                     <span class="item-count">
                         6 Items
                     </span>
+=======
+    
+
+    <!-- Currency Converter Section -->
+    <main class="converter-section">
+
+        <div class="converter-container">
+
+            <p class="small-title">
+                CURRENCY CONVERTER
+            </p>
+
+            <h1>
+                Convert Your <span>Currency</span>
+            </h1>
+
+            <p class="subtitle">
+                Convert currencies quickly using real-time exchange rates.
+            </p>
+
+
+            <!-- Converter Card -->
+            <div class="converter-card">
+
+                <!-- Amount -->
+                <div class="input-group">
+
+                    <label for="amount">
+                        Amount
+                    </label>
+
+                    <input
+                        type="number"
+                        id="amount"
+                        placeholder="Enter amount"
+                        value="100"
+                        min="0"
+                    >
 
                 </div>
 
 
+                <!-- Currency Selection -->
+                <div class="currency-row">
+
+                    <div class="currency-group">
+
+                        <label for="fromCurrency">
+                            From
+                        </label>
+
+                        <select id="fromCurrency">
+
+                            <option value="USD">
+                                USD - US Dollar
+                            </option>
+
+                            <option value="INR" selected>
+                                INR - Indian Rupee
+                            </option>
+
+                            <option value="EUR">
+                                EUR - Euro
+                            </option>
+
+                            <option value="GBP">
+                                GBP - British Pound
+                            </option>
+
+                            <option value="JPY">
+                                JPY - Japanese Yen
+                            </option>
+
+                            <option value="AUD">
+                                AUD - Australian Dollar
+                            </option>
+
+                            <option value="CAD">
+                                CAD - Canadian Dollar
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Swap Button -->
+                    <button
+                        id="swapButton"
+                        class="swap-btn"
+                        title="Swap currencies"
+                    >
+                        ⇄
+                    </button>
+
+
+                    <div class="currency-group">
+
+                        <label for="toCurrency">
+                            To
+                        </label>
+
+                        <select id="toCurrency">
+
+                            <option value="USD" selected>
+                                USD - US Dollar
+                            </option>
+
+                            <option value="INR">
+                                INR - Indian Rupee
+                            </option>
+
+                            <option value="EUR">
+                                EUR - Euro
+                            </option>
+
+                            <option value="GBP">
+                                GBP - British Pound
+                            </option>
+
+                            <option value="JPY">
+                                JPY - Japanese Yen
+                            </option>
+
+                            <option value="AUD">
+                                AUD - Australian Dollar
+                            </option>
+
+                            <option value="CAD">
+                                CAD - Canadian Dollar
+                            </option>
+
+                        </select>
+
+                    </div>
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
+
+                </div>
+
+
+<<<<<<< HEAD
                 <!-- List -->
                 <ul id="taskList" class="task-list">
 
@@ -107,6 +249,53 @@
                     Reset List
                 </button>
 
+=======
+                <!-- Convert Button -->
+                <button
+                    id="convertButton"
+                    class="convert-btn"
+                >
+                    Convert Currency
+                </button>
+
+
+                <!-- Error Message -->
+                <p
+                    id="errorMessage"
+                    class="error-message"
+                ></p>
+
+
+                <!-- Result -->
+                <div
+                    id="result"
+                    class="result"
+                >
+
+                    <p class="result-label">
+                        Converted Amount
+                    </p>
+
+                    <h2 id="convertedAmount">
+                        $1.17
+                    </h2>
+
+                    <p id="exchangeRate">
+                        Exchange rate will appear here
+                    </p>
+
+                </div>
+
+
+                <!-- API Status -->
+                <p
+                    id="apiStatus"
+                    class="api-status"
+                >
+                    Exchange rates powered by Frankfurter API
+                </p>
+
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
             </div>
 
         </div>
@@ -114,6 +303,10 @@
     </main>
 
 
+<<<<<<< HEAD
+=======
+    <!-- JavaScript -->
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     <script src="script.js"></script>
 
 </body>

@@ -81,7 +81,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* Navigation */
+=======
+/* Navigation Links */
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
 .nav-links {
     display: flex;
@@ -110,7 +114,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* Active link */
+=======
+/* Active Home Link */
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
 .nav-links a:first-child {
     color: #4338ca;
@@ -123,6 +131,10 @@ body {
     position: absolute;
 
     left: 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     right: 0;
 
     bottom: -9px;
@@ -137,7 +149,11 @@ body {
    MAIN SECTION
 ================================ */
 
+<<<<<<< HEAD
 .drag-section {
+=======
+.converter-section {
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     min-height: calc(100vh - 70px);
 
     display: flex;
@@ -150,16 +166,27 @@ body {
 }
 
 
+<<<<<<< HEAD
 .drag-container {
     width: 100%;
 
     max-width: 800px;
+=======
+.converter-container {
+    width: 100%;
+
+    max-width: 850px;
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
     text-align: center;
 }
 
 
+<<<<<<< HEAD
 /* Small title */
+=======
+/* Small Heading */
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
 .small-title {
     margin-bottom: 12px;
@@ -174,9 +201,15 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* Main heading */
 
 .drag-container h1 {
+=======
+/* Main Heading */
+
+.converter-container h1 {
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     margin-bottom: 12px;
 
     color: #172554;
@@ -185,7 +218,11 @@ body {
 }
 
 
+<<<<<<< HEAD
 .drag-container h1 span {
+=======
+.converter-container h1 span {
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     color: #4338ca;
 }
 
@@ -204,6 +241,7 @@ body {
 
 
 /* ==============================
+<<<<<<< HEAD
    CARD
 ================================ */
 
@@ -211,6 +249,15 @@ body {
     padding: 32px;
 
     background: rgba(255, 255, 255, 0.95);
+=======
+   CONVERTER CARD
+================================ */
+
+.converter-card {
+    padding: 38px 45px;
+
+    background: rgba(255, 255, 255, 0.94);
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
     border: 1px solid #e1e5ef;
 
@@ -224,6 +271,7 @@ body {
 
 
 /* ==============================
+<<<<<<< HEAD
    CARD HEADER
 ================================ */
 
@@ -456,6 +504,156 @@ body {
     background: white;
 
     font-size: 13px;
+=======
+   AMOUNT INPUT
+================================ */
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+
+.input-group label,
+.currency-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #334155;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.input-group input {
+    width: 100%;
+
+    padding: 14px 16px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    color: #172554;
+
+    background: white;
+
+    font-size: 15px;
+
+    transition: 0.3s ease;
+}
+
+
+.input-group input:focus {
+    border-color: #4338ca;
+
+    box-shadow:
+        0 0 0 3px rgba(67, 56, 202, 0.10);
+}
+
+
+/* ==============================
+   CURRENCY ROW
+================================ */
+
+.currency-row {
+    display: grid;
+
+    grid-template-columns: 1fr 55px 1fr;
+
+    align-items: end;
+
+    gap: 18px;
+
+    margin-bottom: 28px;
+}
+
+
+/* Select */
+
+.currency-group select {
+    width: 100%;
+
+    padding: 14px 12px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    color: #172554;
+
+    background: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+
+.currency-group select:focus {
+    border-color: #4338ca;
+}
+
+
+/* ==============================
+   SWAP BUTTON
+================================ */
+
+.swap-btn {
+    width: 48px;
+
+    height: 48px;
+
+    border: 1px solid #c7d2fe;
+
+    border-radius: 50%;
+
+    color: #4338ca;
+
+    background: #f8f7ff;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+
+.swap-btn:hover {
+    color: white;
+
+    background: #4338ca;
+
+    transform: rotate(180deg);
+}
+
+
+/* ==============================
+   CONVERT BUTTON
+================================ */
+
+.convert-btn {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    color: white;
+
+    background: #4338ca;
+
+    font-size: 14px;
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 
     font-weight: 700;
 
@@ -465,17 +663,122 @@ body {
 }
 
 
+<<<<<<< HEAD
 .reset-btn:hover {
     color: white;
 
     background: #4338ca;
 
     border-color: #4338ca;
+=======
+.convert-btn:hover {
+    background: #3730a3;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(67, 56, 202, 0.22);
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 }
 
 
 /* ==============================
+<<<<<<< HEAD
    MOBILE
+=======
+   ERROR MESSAGE
+================================ */
+
+.error-message {
+    margin-top: 15px;
+
+    color: #dc2626;
+
+    font-size: 13px;
+
+    text-align: center;
+}
+
+
+/* ==============================
+   RESULT
+================================ */
+
+.result {
+    margin-top: 25px;
+
+    padding: 25px;
+
+    border: 1px solid #e0e7ff;
+
+    border-radius: 12px;
+
+    background: #f8f7ff;
+
+    text-align: center;
+}
+
+
+.result-label {
+    margin-bottom: 8px;
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+
+.result h2 {
+    margin-bottom: 8px;
+
+    color: #4338ca;
+
+    font-size: 32px;
+}
+
+
+#exchangeRate {
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+/* ==============================
+   API STATUS
+================================ */
+
+.api-status {
+    margin-top: 20px;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+
+    text-align: center;
+}
+
+
+/* ==============================
+   LOADING
+================================ */
+
+.loading {
+    opacity: 0.6;
+
+    pointer-events: none;
+}
+
+
+/* ==============================
+   TABLET / MOBILE
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
 ================================ */
 
 @media (max-width: 650px) {
@@ -495,12 +798,20 @@ body {
     }
 
 
+<<<<<<< HEAD
     .drag-section {
+=======
+    .converter-section {
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
         padding: 45px 18px;
     }
 
 
+<<<<<<< HEAD
     .drag-container h1 {
+=======
+    .converter-container h1 {
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
         font-size: 30px;
     }
 
@@ -510,6 +821,7 @@ body {
     }
 
 
+<<<<<<< HEAD
     .drag-card {
         padding: 22px 18px;
     }
@@ -536,6 +848,29 @@ body {
 
     .move-icon {
         display: none;
+=======
+    .converter-card {
+        padding: 30px 22px;
+    }
+
+
+    .currency-row {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+
+    .swap-btn {
+        margin: auto;
+
+        transform: rotate(90deg);
+    }
+
+
+    .swap-btn:hover {
+        transform: rotate(270deg);
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     }
 }
 
@@ -546,6 +881,7 @@ body {
 
 @media (max-width: 400px) {
 
+<<<<<<< HEAD
     .drag-card {
         padding: 20px 14px;
     }
@@ -563,5 +899,14 @@ body {
 
     .task-number {
         min-width: 24px;
+=======
+    .converter-card {
+        padding: 25px 18px;
+    }
+
+
+    .result h2 {
+        font-size: 27px;
+>>>>>>> 770a5a7a6ff74cc697bd2015bb4fa323f0fd2769
     }
 }
