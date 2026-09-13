@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drag and Drop List | Ankita Pailwan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- Main Section -->
+    <main class="drag-section">
+
+        <div class="drag-container">
+
+            
+
+            <h1>
+                Drag & <span>Drop List</span>
+            </h1>
+
+            <p class="subtitle">
+                Drag the items to rearrange them in your preferred order.
+            </p>
+
+
+            <!-- Drag and Drop Card -->
+            <div class="drag-card">
+
+                <div class="card-header">
+
+                    <div>
+                        <h2>My Task List</h2>
+
+                        <p>
+                            Drag any item and drop it into a new position.
+                        </p>
+                    </div>
+
+                    <span class="item-count">
+                        6 Items
+                    </span>
+
+                </div>
+
+
+                <!-- List -->
+                <ul id="taskList" class="task-list">
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">01</span>
+                        <span class="task-text">Learn HTML</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">02</span>
+                        <span class="task-text">Practice CSS</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">03</span>
+                        <span class="task-text">Learn JavaScript</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">04</span>
+                        <span class="task-text">Build Projects</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">05</span>
+                        <span class="task-text">Practice Git & GitHub</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                    <li class="task-item" draggable="true">
+                        <span class="drag-icon">☷</span>
+                        <span class="task-number">06</span>
+                        <span class="task-text">Complete Internship Tasks</span>
+                        <span class="move-icon">↕️</span>
+                    </li>
+
+                </ul>
+
+
+                <div class="instruction">
+                    <span>↕️</span>
+                    Drag and drop an item to change its position
+                </div>
+
+
+                <button id="resetButton" class="reset-btn">
+                    Reset List
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
